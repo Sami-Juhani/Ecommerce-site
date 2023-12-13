@@ -8,7 +8,7 @@ const productsData = signal([]);
 const useProducts = () => {
   const getAllProducts = async () => {
     try {
-      const response = await fetch("https://project-api-gi6r.onrender.com/products");
+      const response = await fetch("/products");
 
       if (response.ok) {
         const data = await response.json();
@@ -21,7 +21,7 @@ const useProducts = () => {
 
   const getProductById = async (productId) => {
     try {
-      const response = await fetch(`https://project-api-gi6r.onrender.com/products/${productId}`);
+      const response = await fetch(`/products/${productId}`);
 
       if (response.ok) {
         const data = await response.json();
@@ -34,7 +34,7 @@ const useProducts = () => {
 
   const searchForProducts = useCallback(async (query) => {
     try {
-      const response = await fetch(`https://project-api-gi6r.onrender.com/products/search/${query}`);
+      const response = await fetch(`/products/search/${query}`);
 
       if (response.status === 404) {
         const data = await response.json();
@@ -66,7 +66,7 @@ const useProducts = () => {
 
   const getSaleProducts = async () => {
     try {
-      const response = await fetch("https://project-api-gi6r.onrender.com/products");
+      const response = await fetch("/products");
       let filteredProducts = null;
 
       if (response.ok) {

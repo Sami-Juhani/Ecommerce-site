@@ -16,7 +16,7 @@ let delCounter = 0;
 const useFavorites = () => {
   const handleAddToFavorites = async (product) => {
     try {
-      const response = await fetch("https://project-api-gi6r.onrender.com/api/user/favorites/", {
+      const response = await fetch("/api/user/favorites/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -48,7 +48,7 @@ const useFavorites = () => {
 
   const handleDeleteFavorite = async (id) => {
     try {
-      const response = await fetch("https://project-api-gi6r.onrender.com/api/user/favorites/", {
+      const response = await fetch("/api/user/favorites/", {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

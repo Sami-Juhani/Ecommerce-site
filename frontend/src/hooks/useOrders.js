@@ -8,7 +8,7 @@ const useOrders = () => {
 
   const getAllOrders = async (userId) => {
     try {
-      const response = await fetch(`https://project-api-gi6r.onrender.com/api/orders/${userId}`);
+      const response = await fetch(`/api/orders/${userId}`);
       if (!response.ok) {
         throw new Error(`${response.status} ${response.statusText}`);
       }
@@ -21,7 +21,7 @@ const useOrders = () => {
 
   const deleteOrder = async (orderId) => {
     try {
-      const response = await fetch(`https://project-api-gi6r.onrender.com/api/orders/${orderId}`, {
+      const response = await fetch(`/api/orders/${orderId}`, {
         method: "DELETE",
       });
       if (!response.ok) {
@@ -42,7 +42,7 @@ const useOrders = () => {
 
   const saveOrder = async (userId, products) => {
     try {
-      const response = await fetch("https://project-api-gi6r.onrender.com/api/orders", {
+      const response = await fetch("/api/orders", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -61,7 +61,7 @@ const useOrders = () => {
 
   const updateOrderById = async (orderId, delivered) => {
     try {
-      const response = await fetch(`https://project-api-gi6r.onrender.com/api/orders/${orderId}`, {
+      const response = await fetch(`/api/orders/${orderId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

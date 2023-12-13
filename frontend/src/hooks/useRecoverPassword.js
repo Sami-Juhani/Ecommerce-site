@@ -17,7 +17,7 @@ const useRecoverPassword = () => {
   const createUrl = async (email) => {
     setOkMessage("");
     setFailmessage("");
-    const response = await fetch("https://project-api-gi6r.onrender.com/api/user/recover-password", {
+    const response = await fetch("/api/user/recover-password", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -33,7 +33,7 @@ const useRecoverPassword = () => {
   };
 
   const checkForUrl = async () => {
-    const response = await fetch(`https://project-api-gi6r.onrender.com/api/user${location.pathname}`, {
+    const response = await fetch(`/api/user${location.pathname}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -54,7 +54,7 @@ const useRecoverPassword = () => {
       return;
     }
 
-    const response = await fetch(`https://project-api-gi6r.onrender.com/api/user${location.pathname}`, {
+    const response = await fetch(`/api/user${location.pathname}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

@@ -45,7 +45,7 @@ const CartDropdown = () => {
         <button
           className="checkout-button"
           onClick={() => {
-            if (cart.value?.length > 0) navigate("https://project-api-gi6r.onrender.com/checkout");
+            if (cart.value?.length > 0) navigate("/checkout");
           }}
         >
           Proceed to checkout

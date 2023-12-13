@@ -8,7 +8,7 @@ const productsData = signal([]);
 const useProducts = () => {
   const getAllProducts = async () => {
     try {
-      const response = await fetch("/products");
+      const response = await fetch("http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/products");
 
       if (response.ok) {
         const data = await response.json();
@@ -21,7 +21,7 @@ const useProducts = () => {
 
   const getProductById = async (productId) => {
     try {
-      const response = await fetch(`/products/${productId}`);
+      const response = await fetch(`http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/products/${productId}`);
 
       if (response.ok) {
         const data = await response.json();
@@ -34,7 +34,7 @@ const useProducts = () => {
 
   const searchForProducts = useCallback(async (query) => {
     try {
-      const response = await fetch(`/products/search/${query}`);
+      const response = await fetch(`http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/products/search/${query}`);
 
       if (response.status === 404) {
         const data = await response.json();
@@ -66,7 +66,7 @@ const useProducts = () => {
 
   const getSaleProducts = async () => {
     try {
-      const response = await fetch("/products");
+      const response = await fetch("http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/products");
       let filteredProducts = null;
 
       if (response.ok) {

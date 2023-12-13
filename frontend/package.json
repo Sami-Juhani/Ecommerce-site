@@ -1,5 +1,4 @@
 {
-  "proxy": "ec2-54-87-61-100.compute-1.amazonaws.com",
   "name": "@metropolia/web-dev-project",
   "version": "0.1.0",
   "private": true,

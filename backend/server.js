@@ -9,6 +9,12 @@ const cors = require("cors");
 const customMiddleware = require("./middleware/customMiddleware");
 const swagger_options = require("./utils/swaggerOptions");
 const connectDB = require("./config/db");
+const corsOptions = {
+  origin: "*", // or specify the specific origins that are allowed
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  credentials: true,
+  optionsSuccessStatus: 204,
+};
 
 // App
 const app = express();
@@ -17,7 +23,7 @@ const swaggerDocs = swaggerJsDoc(swagger_options);
 connectDB();
 
 // Middleware
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(customMiddleware.requestLogger);
 

@@ -39,7 +39,7 @@ const WindTurbines = () => {
 
     const fetchProducts = async () => {
       try {
-        const response = await fetch("https://project-api-gi6r.onrender.com/products/category/5");
+        const response = await fetch("http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/products/category/5");
         const json = await response.json();
   
         if (response.ok) {

@@ -59,7 +59,7 @@ const Register = () => {
   const register = async () => {
     try {
       const response = await fetch(
-        registerPageActive.value ? "/api/user/register" : "/api/user/update",
+        registerPageActive.value ? "http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user/register" : "http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user/update",
         {
           method: registerPageActive.value ? "POST" : "PUT",
           headers: registerPageActive.value

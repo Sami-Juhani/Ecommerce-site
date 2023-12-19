@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { loginSuccessMessage } from "../components/Header/Login";
 import { loginDropdownActive } from "../components/Header";
+import { API_URL } from "../index";
 
 const useRecoverPassword = () => {
   const [isValidUrl, setIsValidUrl] = useState(false);
@@ -17,7 +18,7 @@ const useRecoverPassword = () => {
   const createUrl = async (email) => {
     setOkMessage("");
     setFailmessage("");
-    const response = await fetch("http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user/recover-password", {
+    const response = await fetch(API_URL + "/api/user/recover-password", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -33,7 +34,7 @@ const useRecoverPassword = () => {
   };
 
   const checkForUrl = async () => {
-    const response = await fetch(`http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user${location.pathname}`, {
+    const response = await fetch(`${API_URL}/api/user${location.pathname}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -54,7 +55,7 @@ const useRecoverPassword = () => {
       return;
     }
 
-    const response = await fetch(`http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user${location.pathname}`, {
+    const response = await fetch(`${API_URL}/api/user${location.pathname}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

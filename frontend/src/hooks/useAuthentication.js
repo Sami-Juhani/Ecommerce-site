@@ -1,11 +1,12 @@
 import { useCallback } from "react";
 import { currentUser, isAuthenticated } from "../App";
+import { API_URL } from "../index";
 
 const useAuthentication = () => {
   // Authenticate user with access token
   const authenticate = useCallback(async (accessToken) => {
     try {
-      const response = await fetch("http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user/authenticate", {
+      const response = await fetch(API_URL + "/api/user/authenticate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -46,7 +47,7 @@ const useAuthentication = () => {
 
   const refreshToken = async (refreshToken) => {
     try {
-      const response = await fetch("http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user/token", {
+      const response = await fetch(API_URL + "/api/user/token", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

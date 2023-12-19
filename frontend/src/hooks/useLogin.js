@@ -11,13 +11,14 @@ import { currentUser } from "../App.js";
 import { useNavigate } from "react-router-dom";
 import { useGoogleLogin } from "@react-oauth/google";
 import axios from "axios";
+import { API_URL } from "../index.js";
 
 const useLogin = () => {
   const navigate = useNavigate();
 
   const login = async () => {
     try {
-      const response = await fetch("http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user/login", {
+      const response = await fetch(API_URL + "/api/user/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -63,7 +64,7 @@ const useLogin = () => {
         const googleData = res.data;
 
         if (res.status === 200) {
-          const res2 = await fetch("http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user/login", {
+          const res2 = await fetch(API_URL + "/api/user/login", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({

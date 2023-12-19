@@ -89,9 +89,9 @@ const PaymentMethod = () => {
           </label>
           <p>
             You acknowledge the 
-            <a href="#" target="_blank" rel="noopener noreferrer"> terms </a> 
+            <a href="#fake" target="_blank" rel="noopener noreferrer"> terms </a> 
             of the service PayPal provides to the seller and agree to the 
-            <a href="#" target="_blank" rel="noopener noreferrer"> Privacy Statement </a>. 
+            <a href="#fake" target="_blank" rel="noopener noreferrer"> Privacy Statement </a>. 
             PayPal account required.
           </p>
           <button className="payments-button" type="submit" onClick={() => setShowModal(false)}>BUY NOW</button>
@@ -149,9 +149,9 @@ const PaymentMethod = () => {
             </label>
             <p>
               You acknowledge the 
-              <a href="#" target="_blank" rel="noopener noreferrer"> terms </a> 
+              <a href="#fake" target="_blank" rel="noopener noreferrer"> terms </a> 
               of the service Credit Card provides to the seller and agree to the 
-              <a href="#" target="_blank" rel="noopener noreferrer"> Privacy Statement </a>.
+              <a href="#fake" target="_blank" rel="noopener noreferrer"> Privacy Statement </a>.
             </p>
             <button className="payments-button" type="submit" onClick={() => setShowModal(false)}>BUY NOW</button>
           </form>

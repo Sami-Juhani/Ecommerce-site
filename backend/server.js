@@ -3,14 +3,15 @@ const express = require("express");
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 const userRoutes = require("./routes/user");
-const productRouters = require("./routes/products");
-const orderRouters = require("./routes/orders");
+const productRoutes = require("./routes/products");
+const orderRoutes = require("./routes/orders");
+const categoryRoutes = require("./routes/categories");
 const cors = require("cors");
 const customMiddleware = require("./middleware/customMiddleware");
 const swagger_options = require("./utils/swaggerOptions");
 const connectDB = require("./config/db");
 const corsOptions = {
-  origin: "*", // or specify the specific origins that are allowed
+  origin: "*",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
@@ -19,6 +20,7 @@ const corsOptions = {
 // App
 const app = express();
 const port = process.env.PORT || 4000;
+const host = process.env.NODE_ENV === 'production' ? '0.0.0.0' : 'localhost';
 const swaggerDocs = swaggerJsDoc(swagger_options);
 connectDB();
 
@@ -30,9 +32,11 @@ app.use(customMiddleware.requestLogger);
 // Routes
 app.use("/api/user", userRoutes);
 
-app.use("/products", productRouters);
+app.use("/api/products", productRoutes);
 
-app.use("/api/orders", orderRouters);
+app.use("/api/orders", orderRoutes);
+
+app.use("/api/categories", categoryRoutes);
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
@@ -40,6 +44,6 @@ app.use(customMiddleware.unknownEndpoint);
 
 app.use(customMiddleware.errorHandler);
 
-app.listen(port, '0.0.0.0', () => {
-  console.log(`Server is running on http://0.0.0.0:${port}`);
+app.listen(port, host, () => {
+  console.log(`Server is running on http://${host}:${port}`);
 });

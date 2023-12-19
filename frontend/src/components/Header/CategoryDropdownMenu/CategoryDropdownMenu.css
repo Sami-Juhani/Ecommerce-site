@@ -6,6 +6,7 @@
   z-index: 1;
   position: absolute;
   display: flex;
+  min-height: 200px;
 
   @media screen and (max-width: 801px) {
     display: none;
@@ -17,11 +18,7 @@
   color: inherit;
   font-size: 16px;
   cursor: pointer;
-
  }
-
-
-
 
 .category-dropdown-mobile {
   width: 100%;
@@ -95,11 +92,11 @@
 }
 
 .primary-category:hover {
-  border-left: 7px solid var(--mainthird);
   padding-left: 8px;
 }
 
 .primary-category-active {
+  border-left-color: var(--mainthird);
   background-color: var(--color-white-grey);
 }
 
@@ -146,14 +143,6 @@
   background-color: var(--color-white-grey);
   transform-origin: top;
   animation: grow 0.5s ease;
-
-  @media screen and (min-width: 801px) {
-    text-align: unset;
-    min-height: 100%;
-    position: absolute;
-    top: 0;
-    left: 100%;
-  }
 }
 
 .sub-category-hidden {
@@ -171,28 +160,11 @@
   font-size: 17px;
   padding: 5px 10px 0 10px;
   cursor: pointer;
-
-  @media screen and (min-width: 801px) {
-    position: relative;
-    min-width: 220px;
-    font-size: 15px;
-  }
 }
 
 .sub-text:hover {
-  /* background-color: var(--main-white); */
+  background-color: var(--main-white);
   padding: 5px 10px 0 10px;
-}
-
-@media screen and (min-width: 801px) {
-  .sub-text:not(:first-child)::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 10px;
-    border-top: 1px solid var(--color-dark-grey);
-  }
 }
 
 @media screen and (min-width: 768px) {

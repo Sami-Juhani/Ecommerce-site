@@ -17,7 +17,8 @@ node_modules
 .env.development.local
 .env.test.local
 .env.production.local
-.env
+.env.production
+.env.development
 public/env.js
 
 npm-debug.log*

@@ -44,6 +44,6 @@ app.use(customMiddleware.unknownEndpoint);
 
 app.use(customMiddleware.errorHandler);
 
-app.listen(port, host, () => {
-  console.log(`Server is running on http://${host}:${port}`);
+app.listen(port, "0.0.0.0", () => {
+  console.log(`Server is running on 0.0.0.0:${port}`);
 });

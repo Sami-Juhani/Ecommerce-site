@@ -21,6 +21,7 @@ const corsOptions = {
 const app = express();
 const port = process.env.PORT || 4000;
 const host = process.env.NODE_ENV === 'production' ? '0.0.0.0' : 'localhost';
+console.log(process.env.NODE_ENV);
 const swaggerDocs = swaggerJsDoc(swagger_options);
 connectDB();
 

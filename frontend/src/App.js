@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/e-commerce-site">
         <Header />
         <NavBar />
         <Routes>

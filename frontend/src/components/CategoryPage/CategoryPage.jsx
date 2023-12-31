@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Thumbnail from "../Tumbnails/Thumbnail";
 import ThumbnailSale from "../Tumbnails/ThumbnailSale";
 import useProducts from "../../hooks/useProducts";
-import Filters from "../Filters/Filters";
+import Filters from "../Filters";
 
 const subCategoryList = signal([]);
 
@@ -40,9 +40,8 @@ const CategoryPage = ({ category }) => {
   useEffect(() => {
     if (subCategoryList.value.length > 0) {
       filteredProductsData.value = productsData.value.filter((product) =>
-        subCategoryList.value.includes(product.subcategory)
+        subCategoryList.value.includes(parseInt(product.subcategory))
       );
-
       return () => {
         filteredProductsData.value = [];
       };
@@ -52,12 +51,11 @@ const CategoryPage = ({ category }) => {
 
   return (
     <div className="category-page">
-      <Filters
-        title="Solar Panels"
-        category={category}
-        handler={handleFilterChange}
-      />
       <div className="product-container">
+        <Filters
+          category={category}
+          handler={handleFilterChange}
+        />
         {subCategoryList.value.length === 0
           ? productsData.value &&
             productsData.value.map((product) => {

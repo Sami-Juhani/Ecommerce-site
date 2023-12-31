@@ -7,7 +7,7 @@ import "./ProductPage.css";
 const ProductPage = () => {
   const { state } = useLocation();
   const { handleCartBtnClicked, ifInCart } = useShoppingCart();
-  // Check if state contains productDetails and extract it
+
   const productDetails =
     state && state.productDetails ? state.productDetails : {};
 
@@ -19,16 +19,16 @@ const ProductPage = () => {
   };
 
   if (!productDetails) {
-    // Add loading state or error handling here
     return <p>Loading...</p>;
   }
 
   return (
     <div className="product-page">
-      <div className="product-image">
-        <img src={`${productDetails.img}`} alt={productDetails.productName} />
-      </div>
-
+      <img
+        className="product-image"
+        src={`${productDetails.img}`}
+        alt={productDetails.productName}
+      />
       <div className="product-details">
         <h1 className="product-title">{productDetails.productName}</h1>
         <p className="product-description">{productDetails.description}</p>
@@ -36,6 +36,7 @@ const ProductPage = () => {
         <div className="quantity-section">
           <label htmlFor="quantity">Quantity:</label>
           <input
+            className="shopping-cart-item-quantity"
             type="number"
             id="quantity"
             value={quantity}

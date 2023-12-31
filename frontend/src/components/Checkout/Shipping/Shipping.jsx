@@ -26,8 +26,6 @@ const shippingForm = signal({
 });
 
 const Shipping = () => {
-  console.log("Render: Shipping");
-
   useEffect(() => {
     const user = currentUser.value ?? {};
 

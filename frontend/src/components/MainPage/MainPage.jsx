@@ -1,6 +1,7 @@
 import MenuMain from "./MenuMain/MenuMain";
 import SaleContainer from "./SaleContainer";
 import MostPopular from "./MostPopular";
+import "./MainPage.css";
 
 const MainPage = () => {
   return (

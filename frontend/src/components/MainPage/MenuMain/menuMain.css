@@ -10,52 +10,24 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* background-color: #4b4a4a; */
   font-family: "Poppins-Regular", Helvetica;
-}
-
-@media screen and (max-width: 1173px) {
-
-  .menu-container {
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 800px) {
-
-  .menu-container {
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-
-  .menu-container {
-    margin-top: 3rem;
-  }
 }
 
 .menu {
   display: flex;
   width: clamp(900px, 100%, 1050px);
-  /* background-color: rgb(236, 208, 173); */
   height: 350px;
   margin: 1rem 0 1rem 0;
+
+  @media screen and (max-width: 1140px) {
+    display: none;
+  }
 }
 
-/* .menu a {
-  text-decoration: none;
-  display: block;
-  color: inherit;
-  margin: inherit;
-  padding: inherit;
-  border: inherit;
-} */
-
 .menu a,
-a:visited,
-a:hover,
-a:active {
+.menu a:visited,
+.menu a:hover,
+.menu a:active {
   margin: 0;
   padding: 0;
   border: 0;
@@ -70,7 +42,6 @@ a:active {
   align-items: center;
   width: 75%;
   height: auto;
-  /* background-color: rgb(180, 238, 141); */
 }
 
 .right-part {
@@ -79,7 +50,6 @@ a:active {
   align-items: center;
   width: 25%;
   height: auto;
-  /* background-color: rgb(141, 238, 238); */
   padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
@@ -100,7 +70,6 @@ a:active {
 .right-part-inner:hover {
   transform: scale(1.01);
   transition: transform 0.4s ease-in-out;
-  
 }
 
 .gradient {
@@ -192,7 +161,6 @@ a:active {
   width: 100%;
   background-color: white;
   border-radius: 10px;
-  /* background: url('../img/products/menu-1.png'); */
   background-size: cover;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -210,16 +178,4 @@ a:active {
 .bottom-2 {
   flex: 6.5;
   background: url("../../../images/products/efficient-appliances.png");
-}
-
-@media screen and (max-width: 940px) {
-  .sale-container > div:nth-child(4) {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .sale-container > div:nth-child(3) {
-    display: none;
-  }
 }

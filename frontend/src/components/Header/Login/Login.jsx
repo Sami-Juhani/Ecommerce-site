@@ -25,8 +25,6 @@ const Login = () => {
   const navigate = useNavigate();
   const { login, googleLogin } = useLogin();
 
-  console.log("Render: Login");
-
   useEffect(() => {
     isLoading.value = false;
     email.value = "";

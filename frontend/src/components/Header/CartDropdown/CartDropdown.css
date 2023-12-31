@@ -10,7 +10,8 @@
   }
 
   @media screen and (max-width: 801px) {
-    left: -300px;
+    max-width: 300px;
+    left: -247px;
   }
 }
 
@@ -33,6 +34,10 @@
   min-width: 400px;
   padding: 5px 10px;
   border-bottom: 2px solid var(--color-dark-grey);
+
+  @media screen and (max-width: 801px) {
+    min-width: unset;
+  }
 }
 
 .cart-dropdown a {
@@ -72,6 +77,11 @@
 .cart-item-img {
   max-width: 150px;
   max-height: 150px;
+
+  @media screen and (max-width: 801px) {
+    max-width: 140px;
+    max-height: 140px;
+  }
 }
 
 .checkout-button {

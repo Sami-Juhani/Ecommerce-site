@@ -55,10 +55,10 @@ const SaleContainer = () => {
           data.map((item) => {
             return <ThumbnailSale {...item} />;
           })}
-        <button className="active-btn" onClick={onClickHandler}>
-          <span>View all</span>
-        </button>
       </div>
+      <button className="active-btn" onClick={onClickHandler}>
+        <span>View all</span>
+      </button>
     </div>
   );
 };

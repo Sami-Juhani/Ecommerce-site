@@ -39,7 +39,6 @@ function Thumbnail(props) {
                 : {}
             }
           />
-
         </div>
         <a className="a-product" href="#fake">
           <img className="img product-img" src={img} alt="product" />
@@ -48,27 +47,20 @@ function Thumbnail(props) {
           </div>
           <div className="text-wrapper-3 manufacturer">
             {" "}
-            <span className="manufacturer">Manufacturer: </span>
-            <strong>{manufacturer}</strong>
+            <span className="manufacturer">
+              Manufacturer: <strong>{manufacturer}</strong>
+            </span>
           </div>
           <div className="text-wrapper-3 country">
             <span className="country">Country of origin: </span>
             <strong>{country}</strong>
           </div>
           <div className="ofer">
-            <div className="price">
-              $ {price.toFixed(0)}
-              {/* <span className="old-price">$ {price} </span> */}
-            </div>
-            {/* <div className="discount">
-            <div className="discount-sub">
-              <strong>-{discount * 100}</strong> %
-            </div>
-          </div> */}
+            <div className="price">$ {price.toFixed(0)}</div>
             <button
               className="cart-btn"
               onClick={(e) => {
-                e.preventDefault(); 
+                e.preventDefault();
                 handleCartBtnClicked(props);
               }}
               style={
@@ -82,7 +74,6 @@ function Thumbnail(props) {
             </button>
           </div>
         </a>
-
       </Link>
     </div>
   );

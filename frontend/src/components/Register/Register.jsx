@@ -11,6 +11,8 @@ import { BiUserCheck } from "react-icons/bi";
 import { IoIosClose } from "react-icons/io";
 import visibilityOff from "../../images/icons/visibility_off.svg";
 import visibilityOn from "../../images/icons/visibility_on.svg";
+// API Url
+import { API_URL } from "../../index";
 // Styles
 import "./Register.css";
 
@@ -59,7 +61,7 @@ const Register = () => {
   const register = async () => {
     try {
       const response = await fetch(
-        registerPageActive.value ? "http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user/register" : "http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/api/user/update",
+        registerPageActive.value ? API_URL + "/api/user/register" : API_URL + "/api/user/update",
         {
           method: registerPageActive.value ? "POST" : "PUT",
           headers: registerPageActive.value

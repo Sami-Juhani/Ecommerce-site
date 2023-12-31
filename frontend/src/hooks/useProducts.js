@@ -119,7 +119,6 @@ const useProducts = () => {
   };
 
   const getProductsBySubCategory = async (category, subcategory) => {
-    console.log(category, subcategory);
     try {
       const response = await fetch(
         `${API_URL}/api/products/category/${category}/${subcategory}`

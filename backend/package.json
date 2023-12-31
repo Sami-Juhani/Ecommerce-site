@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production node server.js",
-    "dev": "NODE_ENV=development nodemon server.js",
+    "start": "export NODE_ENV=production && node server.js",
+    "dev": "export NODE_ENV=development && nodemon server.js",
     "build": "react-scripts build"
   },
   "keywords": [],

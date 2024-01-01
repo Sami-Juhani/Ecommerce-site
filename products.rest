@@ -11,7 +11,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 149.99,
     "description": "Experience the cutting-edge PowerCharge Pro, a versatile 8A-32A 3KW 7KW portable EV charger crafted for electric car enthusiasts. Engineered by ElectraTech, this mobile charging station ensures seamless and efficient charging for your EV's battery.",
-    "img": "/images/products/charger2.jpg",
+    "img": "./images/products/charger2.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -24,7 +24,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 249.99,
     "description": "Introducing the EcoCharge Pro, a cutting-edge 8A-32A 3KW 7KW portable EV charger designed for electric car enthusiasts. Experience seamless and efficient mobile charging with this advanced charging station. Equipped with state-of-the-art technology, it ensures optimal performance for your EV's battery.",
-    "img": "/images/products/charger3.jpg",
+    "img": "./images/products/charger3.jpg",
     "discount": 0.3,
     "__v": 0
   },
@@ -37,7 +37,7 @@ Content-Type: application/json
     "country": "China",
     "price": 349.99,
     "description": "Introducing the EcoCharge Max, a powerful 8A-32A 3KW 7KW portable EV charger designed for electric car enthusiasts. Manufactured by GreenTech Innovations in China, this cutting-edge mobile charging station ensures efficient charging for your EV's battery.",
-    "img": "/images/products/charger4.jpg",
+    "img": "./images/products/charger4.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -50,7 +50,7 @@ Content-Type: application/json
     "country": "China",
     "price": 449.99,
     "description": "Unleash the power of the TurboVolt X, an advanced 8A-32A 3KW 7KW portable EV charger crafted by QuantumCharge Tech. This state-of-the-art mobile charging station, proudly manufactured in China, is designed to provide rapid and efficient charging for electric car batteries on the go.",
-    "img": "/images/products/charger5.jpg",
+    "img": "./images/products/charger5.jpg",
     "discount": 0.9,
     "__v": 0
   },
@@ -63,7 +63,7 @@ Content-Type: application/json
     "country": "China",
     "price": 459.99,
     "description": "Discover the EcoBoost Elite, an innovative 8A-32A 3KW 7KW portable EV charger engineered by GreenDrive Solutions. Manufactured in China, this cutting-edge mobile charging station is tailored for efficient and on-the-go charging of electric car batteries.",
-    "img": "/images/products/charger6.jpg",
+    "img": "./images/products/charger6.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -76,7 +76,7 @@ Content-Type: application/json
     "country": "China",
     "price": 459.99,
     "description": "Introducing the PowerFlow X1, a revolutionary 8A-32A 3KW 7KW portable EV charger designed by EcoCharge Dynamics. Crafted in China, this dynamic mobile charging station provides seamless and efficient charging for electric vehicles, ensuring you stay powered up wherever your journey takes you.",
-    "img": "/images/products/charger7.jpg",
+    "img": "./images/products/charger7.jpg",
     "discount": 0.7,
     "__v": 0
   },
@@ -89,7 +89,7 @@ Content-Type: application/json
     "country": "China",
     "price": 400,
     "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "/images/products/Charger.jpeg",
+    "img": "./images/products/Charger.jpeg",
     "discount": 0,
     "__v": 0
   },
@@ -102,7 +102,7 @@ Content-Type: application/json
     "country": "China",
     "price": 239.99,
     "description": "Introducing the TeslaCharge Compact, a sleek 8A-32A 3KW 7KW portable EV charger by Tesla. Crafted in China, this compact and efficient mobile charging station ensures a seamless charging experience for electric vehicles, providing reliable power on the go.",
-    "img": "/images/products/charger8.jpg",
+    "img": "./images/products/charger8.jpg",
     "discount": 0.5,
     "__v": 0
   },
@@ -115,7 +115,7 @@ Content-Type: application/json
     "country": "China",
     "price": 349.99,
     "description": "Experience the SolarX Pro, a high-efficiency solar panel designed for both residential and commercial use. Engineered by Solar Tech Innovations, this cutting-edge panel maximizes energy production for a sustainable future.",
-    "img": "/images/products/solar-panel-1.jpeg",
+    "img": "./images/products/solar-panel-1.jpeg",
     "discount": 0,
     "__v": 0
   },
@@ -128,7 +128,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 399.99,
     "description": "Experience the SolarX Pro, a premium solar panel featuring advanced photovoltaic technology for maximum energy efficiency.",
-    "img": "/images/products/mono.jpg",
+    "img": "./images/products/mono.jpg",
     "discount": 0.2,
     "__v": 0
   },
@@ -141,7 +141,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 449.99,
     "description": "Discover the EcoSolar Elite, an eco-friendly solar panel designed for sustainable energy production.",
-    "img": "/images/products/polycrystalline_solar_panel.jpg",
+    "img": "./images/products/polycrystalline_solar_panel.jpg",
     "discount": 0.1,
     "__v": 0
   },
@@ -154,7 +154,7 @@ Content-Type: application/json
     "country": "China",
     "price": 329.99,
     "description": "Introducing the SolarPro X, a high-efficiency solar panel designed for both residential and commercial use.",
-    "img": "/images/products/solar-panel2.jpg",
+    "img": "./images/products/solar-panel2.jpg",
     "discount": 0.15,
     "__v": 0
   },
@@ -167,7 +167,7 @@ Content-Type: application/json
     "country": "Australia",
     "price": 1499.99,
     "description": "Upgrade to the EcoPower Hub, an energy-efficient home battery pack designed for sustainable living. With a capacity of 15.2 kWh, it is suitable for powering energy-efficient refrigerators and other household appliances.",
-    "img": "/images/products/home2.jpg",
+    "img": "./images/products/home2.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -180,7 +180,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 533,
     "description": "Powerporter 11.0 Energy Capacity: 19.6kW with insane power output going to the moon and backwards.",
-    "img": "/images/products/home-battery-pack.jpeg",
+    "img": "./images/products/home-battery-pack.jpeg",
     "discount": 0,
     "__v": 0
   },
@@ -193,7 +193,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 1199.99,
     "description": "Introducing the EcoEnergy Pro, a cutting-edge battery pack by ABB. With a remarkable energy capacity of 22.6 kWh, the Powerporter 11.0 is designed to meet your energy storage needs efficiently.",
-    "img": "/images/products/home3.jpg",
+    "img": "./images/products/home3.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -206,7 +206,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 899,
     "description": "Energy-efficient appliance suitable for refrigeration needs. EcoTech presents the Energy Storage Unit 2000 with a capacity of 23.5 kWh, ideal for powering eco-friendly refrigerators.",
-    "img": "/images/products/energy-efficient-products.jpg",
+    "img": "./images/products/energy-efficient-products.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -219,7 +219,7 @@ Content-Type: application/json
     "country": "United States",
     "price": 1299.99,
     "description": "Upgrade to the HeatMaster Pro, an eco-friendly and high-efficiency boiler by EcoHeat Solutions. With cutting-edge heating technology and a robust design, this boiler guarantees reliable warmth for your home while minimizing environmental impact.",
-    "img": "/images/products/homeEf2.jpg",
+    "img": "./images/products/homeEf2.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -232,7 +232,7 @@ Content-Type: application/json
     "country": "United States",
     "price": 1299.99,
     "description": "Upgrade to the HeatMaster Pro, an eco-friendly and high-efficiency boiler by EcoHeat Solutions. With cutting-edge heating technology and a robust design, this boiler guarantees reliable warmth for your home while minimizing environmental impact.",
-    "img": "/images/products/homeEf3.jpg",
+    "img": "./images/products/homeEf3.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -245,7 +245,7 @@ Content-Type: application/json
     "country": "Canada",
     "price": 899.99,
     "description": "RenewableCo introduces the EcoKettle Plus, an energy-efficient solution for boiling water. With advanced heating technology and a sleek design, this kettle brings you boiling water quickly and efficiently while minimizing energy consumption.",
-    "img": "/images/products/homeEf4.jpg",
+    "img": "./images/products/homeEf4.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -258,7 +258,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 1799.99,
     "description": "RenewableTech proudly presents the EcoWind X-1500, a high-capacity wind turbine designed for sustainable energy generation. With an impressive power output and cutting-edge technology, this wind turbine ensures efficient and eco-friendly electricity production for your renewable energy needs.",
-    "img": "/images/products/turbine13.jpg",
+    "img": "./images/products/turbine13.jpg",
     "discount": 0.3,
     "__v": 0
   },
@@ -271,7 +271,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 2599.99,
     "description": "Introducing the EcoWind Pro-2000 by ABB, a cutting-edge wind turbine for efficient and sustainable energy generation. With an enhanced Powerporter 11.0 system and an increased energy capacity of 13.6kWh, this turbine is designed to maximize your renewable energy output.",
-    "img": "/images/products/turbine14.jpg",
+    "img": "./images/products/turbine14.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -284,7 +284,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 2999.99,
     "description": "Discover the EcoWind Pro-3000 by ABB, an advanced wind turbine engineered for optimal energy production. Featuring the Powerporter 11.0 system with an impressive energy capacity of 14.6kWh, this turbine is your key to sustainable and high-performance renewable energy.",
-    "img": "/images/products/turbine15.jpg",
+    "img": "./images/products/turbine15.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -297,7 +297,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 3499.99,
     "description": "Introducing the EcoWind Ultra-4000 by ABB, a state-of-the-art wind turbine designed for maximum energy efficiency. Equipped with the Powerporter 11.0 system and an impressive energy capacity of 16.6kWh, this turbine sets a new standard for sustainable and high-yield renewable energy production.",
-    "img": "/images/products/turbine16.jpg",
+    "img": "./images/products/turbine16.jpg",
     "discount": 0.5,
     "__v": 0
   },
@@ -310,7 +310,7 @@ Content-Type: application/json
     "country": "Canada",
     "price": 1099,
     "description": "RenewableCo presents the RenewaCharge XE-1200, an energy-efficient solution for powering appliances like pumps. With a storage capacity of 26.5 kWh, it ensures reliable and eco-friendly pump operation.",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -323,7 +323,7 @@ Content-Type: application/json
     "country": "Australia",
     "price": 1699,
     "description": "Upgrade to the GreenPower Ultra 4000, an energy-efficient appliance designed for sustainable living. With a capacity of 30.2 kWh, it is suitable for powering energy-efficient refrigerators and other household appliances.",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -336,7 +336,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 133,
     "description": "Powerporter 11.0 Energy Capacity: 11.6kWh",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0.3,
     "__v": 0
   },
@@ -349,7 +349,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 233,
     "description": "Powerporter 11.0 Energy Capacity: 13.6kWh",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -362,7 +362,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 533,
     "description": "Powerporter 11.0 Energy Capacity: 14.6kWh",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -375,7 +375,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 433,
     "description": "Powerporter 11.0 Energy Capacity: 16.6kWh",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0.5,
     "__v": 0
   },
@@ -388,7 +388,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 733,
     "description": "Powerporter 11.0 Energy Capacity: 20.6kWh",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0.1,
     "__v": 0
   },
@@ -401,7 +401,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 733,
     "description": "Powerporter 11.0 Energy Capacity: 19.6kWh",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -414,7 +414,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 533,
     "description": "Powerporter 11.0 Energy Capacity: 19.6kWh",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -427,7 +427,7 @@ Content-Type: application/json
     "country": "Finland",
     "price": 1033,
     "description": "Powerporter 11.0 Energy Capacity: 22.6kWh",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -440,7 +440,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 899,
     "description": "Energy-efficient appliance suitable for refrigeration needs. EcoTech presents the Energy Storage Unit 2000 with a capacity of 23.5 kWh, ideal for powering eco-friendly refrigerators.",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -453,7 +453,7 @@ Content-Type: application/json
     "country": "Sweden",
     "price": 1299,
     "description": "Upgrade your entertainment setup with this energy-efficient appliance. The PowerCell XR-500, manufactured by GreenEnergy, offers high-capacity energy storage of 25.8 kWh, perfect for powering modern televisions.",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -466,7 +466,7 @@ Content-Type: application/json
     "country": "United States",
     "price": 1499,
     "description": "SustainableTech introduces the EcoPower Pro 3000, an energy-efficient appliance designed for household needs. With a storage capacity of 28.4 kWh, it is suitable for powering energy-efficient refrigerators.",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -479,7 +479,7 @@ Content-Type: application/json
     "country": "Canada",
     "price": 1099,
     "description": "RenewableCo presents the RenewaCharge XE-1200, an energy-efficient solution for powering appliances like pumps. With a storage capacity of 26.5 kWh, it ensures reliable and eco-friendly pump operation.",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -492,7 +492,7 @@ Content-Type: application/json
     "country": "Australia",
     "price": 1699,
     "description": "Upgrade to the GreenPower Ultra 4000, an energy-efficient appliance designed for sustainable living. With a capacity of 30.2 kWh, it is suitable for powering energy-efficient refrigerators and other household appliances.",
-    "img": "/images/products/inverter.jpg",
+    "img": "./images/products/inverter.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -505,7 +505,7 @@ Content-Type: application/json
     "country": "China",
     "price": 299,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/pollycristalline.png",
+    "img": "./images/products/pollycristalline.png",
     "discount": 0,
     "__v": 0
   },
@@ -518,7 +518,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 350,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/pollycristalline.png",
+    "img": "./images/products/pollycristalline.png",
     "discount": 0.2,
     "__v": 0
   },
@@ -531,7 +531,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 400,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "/images/products/pollycristalline.png",
+    "img": "./images/products/pollycristalline.png",
     "discount": 0.1,
     "__v": 0
   },
@@ -544,7 +544,7 @@ Content-Type: application/json
     "country": "China",
     "price": 299,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/pollycristalline.png",
+    "img": "./images/products/pollycristalline.png",
     "discount": 0.15,
     "__v": 0
   },
@@ -557,7 +557,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 350,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/pollycristalline.png",
+    "img": "./images/products/pollycristalline.png",
     "discount": 0.25,
     "__v": 0
   },
@@ -570,7 +570,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 400,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "/images/products/pollycristalline.png",
+    "img": "./images/products/pollycristalline.png",
     "discount": 0.3,
     "__v": 0
   },
@@ -583,7 +583,7 @@ Content-Type: application/json
     "country": "China",
     "price": 299,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/thin-film-solar.png",
+    "img": "./images/products/thin-film-solar.png",
     "discount": 0.1,
     "__v": 0
   },
@@ -596,7 +596,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 350,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/thin-film-solar.png",
+    "img": "./images/products/thin-film-solar.png",
     "discount": 0.2,
     "__v": 0
   },
@@ -609,7 +609,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 400,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "/images/products/thin-film-solar.png",
+    "img": "./images/products/thin-film-solar.png",
     "discount": 0.15,
     "__v": 0
   },
@@ -622,7 +622,7 @@ Content-Type: application/json
     "country": "China",
     "price": 299,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/thin-film-solar.png",
+    "img": "./images/products/thin-film-solar.png",
     "discount": 0.25,
     "__v": 0
   },
@@ -635,7 +635,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 350,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/thin-film-solar.png",
+    "img": "./images/products/thin-film-solar.png",
     "discount": 0.3,
     "__v": 0
   },
@@ -648,7 +648,7 @@ Content-Type: application/json
     "country": "China",
     "price": 1299,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/flywheel.jpeg",
+    "img": "./images/products/flywheel.jpeg",
     "discount": 0,
     "__v": 0
   },
@@ -661,7 +661,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 1350,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/flywheel.jpeg",
+    "img": "./images/products/flywheel.jpeg",
     "discount": 0.2,
     "__v": 0
   },
@@ -674,7 +674,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 1400,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "/images/products/flywheel.jpeg",
+    "img": "./images/products/flywheel.jpeg",
     "discount": 0.1,
     "__v": 0
   },
@@ -687,7 +687,7 @@ Content-Type: application/json
     "country": "China",
     "price": 1299,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/flywheel.jpeg",
+    "img": "./images/products/flywheel.jpeg",
     "discount": 0.15,
     "__v": 0
   },
@@ -700,7 +700,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 1350,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/flywheel.jpeg",
+    "img": "./images/products/flywheel.jpeg",
     "discount": 0.25,
     "__v": 0
   },
@@ -713,7 +713,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 4000,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "/images/products/flywheel.jpeg",
+    "img": "./images/products/flywheel.jpeg",
     "discount": 0,
     "__v": 0
   },
@@ -726,7 +726,7 @@ Content-Type: application/json
     "country": "China",
     "price": 2990,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/thermal-storage.jpeg",
+    "img": "./images/products/thermal-storage.jpeg",
     "discount": 0,
     "__v": 0
   },
@@ -739,7 +739,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 3500,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/thermal-storage.jpeg",
+    "img": "./images/products/thermal-storage.jpeg",
     "discount": 0.2,
     "__v": 0
   },
@@ -752,7 +752,7 @@ Content-Type: application/json
     "country": "China",
     "price": 2990,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/thermal-storage.jpeg",
+    "img": "./images/products/thermal-storage.jpeg",
     "discount": 0.1,
     "__v": 0
   },
@@ -765,7 +765,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 3500,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/thermal-storage.jpeg",
+    "img": "./images/products/thermal-storage.jpeg",
     "discount": 0,
     "__v": 0
   },
@@ -778,7 +778,7 @@ Content-Type: application/json
     "country": "China",
     "price": 199,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/public-charging.png",
+    "img": "./images/products/public-charging.png",
     "discount": 0,
     "__v": 0
   },
@@ -791,7 +791,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 350,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/public-charging.png",
+    "img": "./images/products/public-charging.png",
     "discount": 0.2,
     "__v": 0
   },
@@ -804,7 +804,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 400,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "/images/products/public-charging.png",
+    "img": "./images/products/public-charging.png",
     "discount": 0.1,
     "__v": 0
   },
@@ -817,7 +817,7 @@ Content-Type: application/json
     "country": "China",
     "price": 299,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/public-charging.png",
+    "img": "./images/products/public-charging.png",
     "discount": 0.15,
     "__v": 0
   },
@@ -830,7 +830,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 130,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/public-charging.png",
+    "img": "./images/products/public-charging.png",
     "discount": 0.25,
     "__v": 0
   },
@@ -843,7 +843,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 400,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "/images/products/public-charging.png",
+    "img": "./images/products/public-charging.png",
     "discount": 0,
     "__v": 0
   },
@@ -856,7 +856,7 @@ Content-Type: application/json
     "country": "China",
     "price": 290,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/super-charge.jpg",
+    "img": "./images/products/super-charge.jpg",
     "discount": 0,
     "__v": 0
   },
@@ -869,7 +869,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 3500,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/super-charge.jpg",
+    "img": "./images/products/super-charge.jpg",
     "discount": 0.2,
     "__v": 0
   },
@@ -882,7 +882,7 @@ Content-Type: application/json
     "country": "Germany",
     "price": 4000,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "/images/products/super-charge.jpg",
+    "img": "./images/products/super-charge.jpg",
     "discount": 0.15,
     "__v": 0
   },
@@ -895,7 +895,7 @@ Content-Type: application/json
     "country": "China",
     "price": 2990,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "/images/products/super-charge.jpg",
+    "img": "./images/products/super-charge.jpg",
     "discount": 0.1,
     "__v": 0
   },
@@ -908,7 +908,7 @@ Content-Type: application/json
     "country": "USA",
     "price": 3500,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "/images/products/super-charge.jpg",
+    "img": "./images/products/super-charge.jpg",
     "discount": 0,
     "__v": 0
   }

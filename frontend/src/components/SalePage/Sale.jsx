@@ -1,6 +1,7 @@
 // import products from "../../models/dataForSale";
 import ThumbnailSale from "../Tumbnails/ThumbnailSale";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import { API_URL } from "../..";
 import "./Sale.css";
 
 let filteredProducts;
@@ -11,7 +12,7 @@ const Sale = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       const response = await fetch(
-        "http://ec2-54-87-61-100.compute-1.amazonaws.com:4000/products"
+        API_URL + "/api/products"
       );
       const json = await response.json();
 

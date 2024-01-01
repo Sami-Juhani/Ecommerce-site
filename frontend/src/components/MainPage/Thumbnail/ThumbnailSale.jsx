@@ -55,7 +55,6 @@ function ThumbnailSale(props) {
             </div>
        </Link>
         <div className="ofer">
-          
             <div className="price">
               $ {price && (price - price * discount).toFixed(0)}{" "}
               <span className="old-price">$ {price && price.toFixed(0)} </span>

@@ -1,7 +1,5 @@
-require("dotenv").config({ path: ".env" });
+require("dotenv").config({ path: ".env"});
 const express = require("express");
-const https = require("https");
-const fs = require("fs");
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 const userRoutes = require("./routes/user");
@@ -22,7 +20,7 @@ const corsOptions = {
 // App
 const app = express();
 const port = process.env.PORT || 4000;
-const host = process.env.NODE_ENV === "production" ? "0.0.0.0" : "localhost";
+const host = process.env.NODE_ENV === 'production' ? '0.0.0.0' : 'localhost';
 const swaggerDocs = swaggerJsDoc(swagger_options);
 connectDB();
 
@@ -46,14 +44,6 @@ app.use(customMiddleware.unknownEndpoint);
 
 app.use(customMiddleware.errorHandler);
 
-https
-  .createServer(
-    {
-      key: fs.readFileSync("private-key.pem"),
-      cert: fs.readFileSync("server.crt"),
-    },
-    app
-  )
-  .listen(4000, '0.0.0.0', () => {
-    console.log("server is running at 0.0.0.0:4000");
-  });
+app.listen(port, "localhost", () => {
+  console.log(`Server is running on 0.0.0.0:${port}`);
+});

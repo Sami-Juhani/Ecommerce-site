@@ -49,8 +49,8 @@ app.use(customMiddleware.errorHandler);
 https
   .createServer(
     {
-      key: fs.readFileSync("key.pem"),
-      cert: fs.readFileSync("cert.pem"),
+      key: fs.readFileSync("private-key.pem"),
+      cert: fs.readFileSync("server.crt"),
     },
     app
   )

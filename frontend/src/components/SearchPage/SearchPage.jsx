@@ -44,7 +44,7 @@ function SearchPage() {
                 <ThumbnailSale
                   {...product}
                   {...product}
-                  img={`../${product.img}`}
+                  img={product.img}
                   key={product._id}
                 />
               );
@@ -52,7 +52,7 @@ function SearchPage() {
               return (
                 <Thumbnail
                   {...product}
-                  img={`../${product.img}`}
+                  img={product.img}
                   key={product._id}
                 />
               );

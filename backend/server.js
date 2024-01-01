@@ -1,6 +1,4 @@
 require("dotenv").config({ path: ".env"});
-const https = require("https");
-const fs = require("fs");
 const express = require("express");
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
@@ -46,20 +44,7 @@ app.use(customMiddleware.unknownEndpoint);
 
 app.use(customMiddleware.errorHandler);
 
-// app.listen(port, "0.0.0.0", () => {
-//   console.log(`Server is running on 0.0.0.0:${port}`);
-// });
+app.listen(port, "0.0.0.0", () => {
+  console.log(`Server is running on 0.0.0.0:${port}`);
+});
 
-https
-  .createServer(
-		// Provide the private and public key to the server by reading each
-		// file's content with the readFileSync() method.
-    {
-      key: fs.readFileSync("key.pem"),
-      cert: fs.readFileSync("cert.pem"),
-    },
-    app
-  )
-  .listen(4000, "0.0.0.0", () => {
-    console.log("serever is runing at 0.0.0.0:4000");
-  });
